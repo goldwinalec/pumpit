@@ -80,7 +80,8 @@ h3 {
   font-family: "MazzardH-SemiBold", sans-serif;
   font-size: 14px;
 }
-.header__nav-link:hover {
+.header__nav-link:hover,
+.footer__link:hover {
   color: #9987f1;
 }
 .hero__inner {
@@ -97,8 +98,8 @@ h3 {
   content: "";
   width: 650px;
   height: 676px;
-  right: -43px;
-  top: 118px;
+  right: -45px;
+  top: 140px;
   background-image: url("/images/content/hero-gradient.svg");
   filter: blur(150px);
   -webkit-filter: blur(150px);
@@ -337,10 +338,10 @@ h3 {
   width: 595px;
   height: 100%;
   top: 120px;
-  left: -50px;
+  left: 0px;
   background-image: url("/images/content/portfolio-gradient.svg");
-  filter: blur(150px);
-  -webkit-filter: blur(150px);
+  filter: blur(120px);
+  -webkit-filter: blur(120px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -424,8 +425,8 @@ h3 {
   top: 250px;
   left: -50px;
   background-image: url("/images/content/contact-gradient.svg");
-  filter: blur(150px);
-  -webkit-filter: blur(150px);
+  filter: blur(120px);
+  -webkit-filter: blur(120px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -482,4 +483,22 @@ h3 {
 }
 .contact__btn {
   margin-top: 10px;
+}
+.footer {
+  padding: 33px 0;
+  background-color: #071c35;
+  font-family: "MazzardH-SemiBold";
+  font-size: 14px;
+  color: #fff;
+}
+.footer__inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
 }
