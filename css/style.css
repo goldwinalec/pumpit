@@ -368,6 +368,7 @@ h3 {
   padding: 178px 22px 57px 16px;
   color: #fff;
   border-radius: 40px;
+  z-index: 2;
 }
 .tariffs__item:first-child {
   background: linear-gradient(
@@ -421,8 +422,8 @@ h3 {
   background-image: url("/images/content/contact-gradient.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 120%;
-  z-index: -1;
+  background-size: 100% 110%;
+  z-index: -2;
 }
 .contact__inner {
   display: flex;
