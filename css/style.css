@@ -90,8 +90,10 @@ p {
   padding: 16px;
   width: 210px;
   height: 49px;
-  background: #071c35;
-  background-image: none;
+  background-image: url("/images/icons/link.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   font-family: "MazzardH-SemiBold", sans-serif;
   font-size: 14px;
   color: #fff;
