@@ -85,7 +85,7 @@ p {
   content: "";
   width: 1215px;
   height: 1241px;
-  right: -200px;
+  left: 30%;
   top: -100px;
   background-image: url("/images/content/hero-gradient.svg");
   background-size: contain;
@@ -95,7 +95,7 @@ p {
 }
 @media (min-width: 1920px) {
   .hero::before {
-    right: -100px;
+    left: 35%;
   }
 }
 
