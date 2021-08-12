@@ -1,36 +1,6 @@
-<svg width="1688" height="1097" viewBox="0 0 1688 1097" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_f)">
-<ellipse cx="479.477" cy="468.38" rx="171.477" ry="160.898" fill="#A1E6FB"/>
-</g>
-<g filter="url(#filter1_f)">
-<ellipse cx="586.278" cy="641.5" rx="184.901" ry="173.5" fill="#8E80D2" fill-opacity="0.8"/>
-</g>
-<g filter="url(#filter2_f)">
-<ellipse cx="873" cy="499.659" rx="232" ry="217.659" fill="#DD4C4E" fill-opacity="0.6"/>
-</g>
-<g filter="url(#filter3_f)">
-<ellipse cx="1188.66" cy="503.241" rx="191.657" ry="179.833" fill="#EFBD67" fill-opacity="0.86"/>
-</g>
-<defs>
-<filter id="filter0_f" x="26" y="25.4822" width="906.955" height="885.796" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="141" result="effect1_foregroundBlur"/>
-</filter>
-<filter id="filter1_f" x="119.377" y="186" width="933.802" height="911.001" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="141" result="effect1_foregroundBlur"/>
-</filter>
-<filter id="filter2_f" x="359" y="0" width="1028" height="999.319" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="141" result="effect1_foregroundBlur"/>
-</filter>
-<filter id="filter3_f" x="715" y="41.4084" width="947.313" height="923.665" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="141" result="effect1_foregroundBlur"/>
-</filter>
-</defs>
+<svg width="1073" height="502" viewBox="0 0 1073 502" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="171.477" cy="175.54" rx="171.477" ry="151.54" fill="#A1E6FB"/>
+<ellipse cx="278.278" cy="338.591" rx="184.901" ry="163.409" fill="#8E80D2" fill-opacity="0.8"/>
+<ellipse cx="565" cy="205" rx="232" ry="205" fill="#DD4C4E" fill-opacity="0.6"/>
+<ellipse cx="880.657" cy="208.373" rx="191.657" ry="169.373" fill="#EFBD67" fill-opacity="0.86"/>
 </svg>
