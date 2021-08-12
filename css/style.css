@@ -198,8 +198,9 @@ h3 {
   -o-border-radius: 20px;
 }
 .scope__img {
+  display: block;
   margin-left: 32px;
-  margin-bottom: -32px;
+  margin-bottom: -28px;
 }
 .scope__item-title {
   display: block;
@@ -217,4 +218,10 @@ h3 {
 .scope__item:nth-child(2) .scope__item-title {
   width: 200px;
   max-width: 100%;
+}
+.scope__item:first-child .scope__item-text {
+  width: 195px;
+}
+.scope__item:nth-child(4) .scope__item-text {
+  width: unset;
 }
