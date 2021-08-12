@@ -493,7 +493,7 @@ h3 {
 }
 .footer__inner {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
 }
 .footer__list {
