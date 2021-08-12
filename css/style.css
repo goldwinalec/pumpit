@@ -101,8 +101,8 @@ h3 {
   right: -45px;
   top: 140px;
   background-image: url("/images/content/hero-gradient.svg");
-  filter: blur(150px);
-  -webkit-filter: blur(150px);
+  filter: blur(120px);
+  -webkit-filter: blur(120px);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
