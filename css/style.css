@@ -14,6 +14,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: #071c35;
+  background-color: #f5f4f4;
 }
 .container {
   margin: 0 auto;
@@ -42,7 +43,12 @@ p {
   padding: 0;
 }
 .header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
   padding: 35px 0;
+  z-index: 5;
 }
 .header__inner {
   display: flex;
@@ -64,18 +70,32 @@ p {
   color: #9987f1;
 }
 .hero {
+  position: relative;
+}
+.hero__inner {
+  padding-top: 231px;
+  padding-bottom: 193px;
   background-image: url("/images/content/hero-bg@2x.png");
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
-.hero__inner {
-  padding-top: 131px;
-  padding-bottom: 193px;
-  width: 653px;
-  max-width: 100%;
+.hero::before {
+  position: absolute;
+  content: "";
+  width: 150%;
+  height: 150%;
+  left: -60px;
+  top: -100px;
+  background-image: url("/images/content/hero-gradient.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
 }
 .hero__title {
+  width: 653px;
+  max-width: 100%;
   font-family: "Montserrat-Bold", sans-serif;
   font-size: 64px;
   line-height: 1.34;
