@@ -140,6 +140,7 @@ h3 {
   width: 210px;
   height: 49px;
   background-image: url("/images/icons/link.svg");
+  background-color: #071c35;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -165,6 +166,7 @@ h3 {
   background-position: center;
 }
 .link:hover {
+  background-color: #9987f1;
   background-image: url("/images/icons/link-hover.svg");
 }
 .link:active {
@@ -308,6 +310,7 @@ h3 {
 .process__item-text {
   margin-top: 20px;
   width: 297px;
+  max-width: 100%;
   font-family: "MazzardL-Medium", sans-serif;
   font-size: 16px;
   line-height: 1.24;
@@ -401,4 +404,7 @@ h3 {
   font-family: "MazzardL-Medium", sans-serif;
   font-size: 16px;
   line-height: 1.24;
+}
+.contact {
+  margin-top: 183px;
 }
