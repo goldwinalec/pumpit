@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "MazzardL-Regular";
+  src: url("../fonts/MazzardL-Regular.woff") format("woff"),
+    url("../fonts/MazzardL-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MazzardL-Medium";
+  src: url("../fonts/MazzardL-Medium.woff") format("woff"),
+    url("../fonts/MazzardL-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MazzardL-Bold";
+  src: url("../fonts/MazzardL-Bold.woff") format("woff"),
+    url("../fonts/MazzardL-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MazzardM-Bold";
+  src: url("../fonts/MazzardM-Bold.woff") format("woff"),
+    url("../fonts/MazzardM-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MazzardH-Medium";
+  src: url("../fonts/MazzardH-Medium.woff") format("woff"),
+    url("../fonts/MazzardH-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MazzardH-SemiBold";
+  src: url("../fonts/MazzardH-SemiBold.woff") format("woff"),
+    url("../fonts/MazzardH-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.woff") format("woff"),
+    url("../fonts/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
