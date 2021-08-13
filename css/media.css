@@ -7,6 +7,12 @@
   }
 }
 @media (max-width: 991px) {
+  .portfolio__img {
+    width: 40%;
+  }
+  .portfolio__inner {
+    gap: 30px;
+  }
 }
 @media (max-width: 768px) {
   body {
@@ -18,7 +24,8 @@
   h2 {
     font-size: 24px;
   }
-  h3 {
+  h3,
+  .process__item::marker {
     font-size: 16px;
   }
   .hero__title--outline {
@@ -69,6 +76,36 @@
   .scope__items {
     margin-top: 30px;
   }
+  .process {
+    margin-top: 60px;
+  }
+  .process__item {
+    padding: 20px 18px;
+  }
+  .process__items {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .process__item:nth-child(5),
+  .process__item:nth-child(9),
+  .process__item:nth-child(10),
+  .process__item:nth-child(4) {
+    margin: 0;
+  }
+  .process__item {
+    max-width: 49%;
+  }
+  .process__item-text {
+    margin-top: 14px;
+    font-size: 14px;
+  }
+  .portfolio {
+    margin-top: 60px;
+  }
 }
 @media (max-width: 576px) {
   .scope__img {
@@ -97,10 +134,63 @@
   .scope__item:nth-child(2) .scope__item-title {
     width: 165px;
   }
+  .process__item {
+    max-width: 96%;
+    flex-basis: 100%;
+  }
+  .process__item:nth-child(odd) {
+    margin-right: auto;
+  }
+  .process__item:nth-child(even) {
+    margin-left: auto;
+  }
+  .process::before {
+    background-image: url("/images/content/process-mobile.svg");
+    height: 92%;
+    filter: blur(100px);
+    -webkit-filter: blur(100px);
+  }
+  .portfolio__inner {
+    display: block;
+  }
+  .portfolio__inner::before {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 230px;
+    top: 75px;
+    left: 20px;
+    filter: blur(40px);
+    -webkit-filter: blur(40px);
+  }
+  .portfolio__img {
+    display: none;
+  }
+  .portfolio__img--mobile {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 78%;
+  }
+  .portfolio__text {
+    margin-top: 30px;
+  }
+  .portfolio__link {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 375px) {
   .hero__inner {
     padding-top: 110%;
     background-size: 100%;
+  }
+  .portfolio__img--mobile {
+    width: 214px;
+  }
+  .portfolio__link {
+    position: absolute;
+    top: 251px;
+    width: 220px;
+    margin: 0;
   }
 }

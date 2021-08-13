@@ -289,6 +289,7 @@ h3 {
 }
 .process__item:nth-child(5) {
   grid-area: e;
+  margin-right: auto;
 }
 .process__item:nth-child(6) {
   grid-area: f;
@@ -305,6 +306,7 @@ h3 {
 }
 .process__item:nth-child(10) {
   grid-area: j;
+  margin-right: auto;
 }
 .process__item-text {
   margin-top: 20px;
@@ -316,7 +318,7 @@ h3 {
   color: #676573;
 }
 .process__item-title {
-  display: inline-block;
+  display: inline;
 }
 .portfolio {
   margin-top: 154px;
@@ -326,6 +328,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 83px;
 }
 .portfolio__inner::before {
   position: absolute;
@@ -342,8 +345,8 @@ h3 {
   background-size: contain;
   z-index: -1;
 }
-.portfolio__wrapper {
-  margin-left: 83px;
+.portfolio__img--mobile {
+  display: none;
 }
 .portfolio__link {
   margin-top: 50px;
