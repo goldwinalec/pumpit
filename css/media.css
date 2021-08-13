@@ -8,6 +8,9 @@
   .contact__inner {
     gap: 30px;
   }
+  .hero__inner::before {
+    right: 0;
+  }
 }
 @media (max-width: 991px) {
   .portfolio__img {
