@@ -15,6 +15,9 @@ body {
   color: #071c35;
   background-color: #f5f4f4;
 }
+.html--disabled {
+  overflow: hidden;
+}
 .container {
   margin: 0 auto;
   padding: 0 15px;
@@ -75,6 +78,9 @@ h3 {
   gap: 32px;
   font-family: "MazzardH-SemiBold", sans-serif;
   font-size: 14px;
+}
+.header__nav-toggle {
+  display: none;
 }
 .header__nav-link:hover,
 .footer__link:hover {
