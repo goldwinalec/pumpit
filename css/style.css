@@ -441,6 +441,8 @@ h3 {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
+  font-family: "MazzardH-Medium", sans-serif;
+  font-size: 14px;
 }
 .contact__text {
   flex-basis: 100%;

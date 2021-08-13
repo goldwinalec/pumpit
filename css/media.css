@@ -5,6 +5,9 @@
   .scope__item {
     width: 49%;
   }
+  .contact__inner {
+    gap: 30px;
+  }
 }
 @media (max-width: 991px) {
   .portfolio__img {
@@ -19,6 +22,22 @@
   .tariffs__items {
     flex-wrap: wrap;
     gap: 10px;
+  }
+  .contact__input {
+    flex-basis: 100%;
+  }
+  .contact__form {
+    gap: 10px;
+  }
+  .contact__input,
+  .contact__input::placeholder,
+  .contact__text,
+  .contact__text::placeholder {
+    font-size: 12px;
+  }
+  .contact__text,
+  .contact__btn {
+    margin-top: 0;
   }
 }
 @media (max-width: 768px) {
@@ -119,6 +138,34 @@
   }
   .tariffs__item-text {
     font-size: 14px;
+  }
+  .contact {
+    margin-top: 60px;
+  }
+  .contact::before {
+    background-image: url("/images/content/contact-mobile.svg");
+    width: 341px;
+    height: 649px;
+    top: 10px;
+    left: 0;
+    filter: blur(70px);
+    -webkit-filter: blur(70px);
+  }
+  .contact__img {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 166px;
+    margin: 0;
+  }
+  .contact__form {
+    margin-top: 233px;
+  }
+  .contact__text {
+    min-height: 116px;
+  }
+  .contact__input {
+    height: 43px;
   }
 }
 @media (max-width: 576px) {
