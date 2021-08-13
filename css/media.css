@@ -13,6 +13,13 @@
   .portfolio__inner {
     gap: 30px;
   }
+  .tariffs__item {
+    padding: 80px 23px 34px;
+  }
+  .tariffs__items {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 }
 @media (max-width: 768px) {
   body {
@@ -103,8 +110,15 @@
     margin-top: 14px;
     font-size: 14px;
   }
-  .portfolio {
+  .portfolio,
+  .tariffs {
     margin-top: 60px;
+  }
+  .tariffs__items {
+    margin-top: 30px;
+  }
+  .tariffs__item-text {
+    font-size: 14px;
   }
 }
 @media (max-width: 576px) {
