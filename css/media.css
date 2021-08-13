@@ -1,0 +1,106 @@
+@media (max-width: 1230px) {
+  .scope__items {
+    gap: 10px;
+  }
+  .scope__item {
+    width: 49%;
+  }
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .hero__title {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .hero__title--outline {
+    font-family: "Montserrat-Bold", sans-serif;
+    -webkit-text-stroke: 1px #071c35;
+    letter-spacing: -1px;
+  }
+  .link {
+    padding: 13px;
+    width: 187px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .hero__inner {
+    padding-top: 320px;
+    padding-bottom: 60px;
+    background-position: center 0;
+  }
+  .hero__inner::before {
+    width: 499px;
+    height: 575px;
+    left: 50px;
+    right: 0;
+    top: 0;
+  }
+  .hero__text {
+    margin-top: 18px;
+  }
+  .hero__link {
+    margin-top: 24px;
+  }
+  .scope__items {
+    gap: 10px;
+  }
+  .scope__item {
+    width: 100%;
+  }
+  .scope__item-inner {
+    padding-top: 28px;
+    padding-left: 17px;
+    padding-right: 50px;
+    min-height: 138px;
+    height: unset;
+  }
+  .scope__items {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 576px) {
+  .scope__img {
+    width: 101px;
+    margin-bottom: -15px;
+  }
+  .hero__inner {
+    padding-top: 87%;
+    background-size: 80%;
+  }
+  .header__logo {
+    width: 75px;
+  }
+  .hero__inner::before {
+    width: 428px;
+    height: 445px;
+    left: -10px;
+    right: 0;
+    top: -50px;
+  }
+  .scope__item-text {
+    width: 100%;
+    font-size: 14px;
+  }
+  .scope__item:nth-child(3) .scope__item-title,
+  .scope__item:nth-child(2) .scope__item-title {
+    width: 165px;
+  }
+}
+@media (max-width: 375px) {
+  .hero__inner {
+    padding-top: 110%;
+    background-size: 100%;
+  }
+}
