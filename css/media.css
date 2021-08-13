@@ -200,6 +200,9 @@
   .process {
     margin-top: 60px;
   }
+  .portfolio__inner::before {
+    width: 395px;
+  }
   .process__item {
     padding: 20px 18px;
   }
