@@ -366,4 +366,7 @@
     width: 220px;
     margin: 0;
   }
+  .scope__item-title {
+    width: 100%;
+  }
 }
