@@ -147,7 +147,7 @@
     width: 341px;
     height: 649px;
     top: 10px;
-    left: 0;
+    left: -10px;
     filter: blur(70px);
     -webkit-filter: blur(70px);
   }
@@ -166,6 +166,9 @@
   }
   .contact__input {
     height: 43px;
+  }
+  .footer {
+    margin-top: 60px;
   }
 }
 @media (max-width: 576px) {
