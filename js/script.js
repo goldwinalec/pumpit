@@ -25,14 +25,14 @@ navLink.forEach((link) => {
   });
 });
 
-document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-  anchor.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    document.querySelector(this.getAttribute("href")).scrollIntoView({
-      behavior: "smooth",
-    });
-  });
-});
+// document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+//   anchor.addEventListener("click", function (evt) {
+//     evt.preventDefault();
+//     document.querySelector(this.getAttribute("href")).scrollIntoView({
+//       behavior: "smooth",
+//     });
+//   });
+// });
 
 const swiper = new Swiper(".feedback__wrapper", {
   slidesPerView: 1,
@@ -60,6 +60,7 @@ for (let projectButton of projectButtons) {
     modal.classList.add("modal--active");
     document.body.addEventListener("click", (event) => {
       if (modal.classList.contains("modal--active")) {
+        event.preventDefault();
         if (
           event.target.closest(".modal__btn-img") ||
           (!event.target.closest(".modal") &&
