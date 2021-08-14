@@ -82,7 +82,7 @@
   .header__nav {
     opacity: 0;
     visibility: hidden;
-    position: fixed;
+    position: absolute;
     top: 88px;
     width: 100%;
     height: 100%;
@@ -172,6 +172,17 @@
     padding: 32px 15px;
     background-color: #071c35;
     z-index: 5;
+  }
+  h2 {
+    position: relative;
+  }
+  h2::before {
+    display: block;
+    content: "";
+    margin-top: -5px;
+    height: 5px;
+    visibility: hidden;
+    pointer-events: none;
   }
   .header__nav-list {
     margin-top: 110px;
@@ -263,7 +274,7 @@
     background-image: url("/images/content/contact-mobile.svg");
     width: 341px;
     height: 649px;
-    top: 10px;
+    top: 0;
     left: -10px;
     filter: blur(70px);
     -webkit-filter: blur(70px);
