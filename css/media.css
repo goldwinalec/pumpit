@@ -50,13 +50,17 @@
   .footer__copyright {
     font-family: "MazzardL-Medium", sans-serif;
   }
+  .portfolio-page__item {
+    flex-basis: 48%;
+  }
 }
 @media (max-width: 768px) {
   body {
     font-size: 14px;
   }
-  .hero__title {
-    font-size: 26px;
+  .hero__title,
+  .portfolio-page__title {
+    font-size: 36px;
   }
   h2 {
     font-size: 24px;
@@ -301,8 +305,14 @@
   .footer__copyright {
     font-size: 14px;
   }
+  .portfolio-page__item {
+    flex-basis: 100%;
+  }
 }
 @media (max-width: 576px) {
+  .hero__title {
+    font-size: 26px;
+  }
   .scope__img {
     width: 101px;
     margin-bottom: -15px;
@@ -377,6 +387,53 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 13px;
+  }
+  .portfolio-page::before {
+    width: 428px;
+    height: 100%;
+    left: 50%;
+    top: -20px;
+    background-image: url("/images/content/portfolio-pages-mobile.svg");
+    filter: blur(85px);
+    -webkit-filter: blur(85px);
+  }
+  .portfolio-page__title {
+    margin-top: 23px;
+  }
+  .portfolio-page__items {
+    margin-top: 15px;
+    gap: 15px;
+  }
+  .portfolio-page__item {
+    padding: 31px 25px;
+  }
+  .feedback__item {
+    padding: 27px 25px;
+  }
+  .portfolio-page__item::before {
+    right: 25px;
+    bottom: 31px;
+  }
+  .portfolio-page__item-name {
+    font-size: 36px;
+  }
+  .portfolio-page__item-descr {
+    font-size: 14px;
+  }
+  .feedback {
+    margin-top: 60px;
+  }
+  .feedback__author {
+    font-size: 16px;
+  }
+  .feedback__text {
+    margin-top: 15px;
+  }
+  .feedback__arrow {
+    width: 18px;
+  }
+  .feedback__next .feedback__arrow {
+    margin-left: auto;
   }
 }
 @media (max-width: 375px) {
