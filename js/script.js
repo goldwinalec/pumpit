@@ -33,3 +33,10 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     });
   });
 });
+
+const swiper = new Swiper(".feedback__wrapper", {
+  navigation: {
+    nextEl: ".feedback__next",
+    prevEl: ".feedback__prev",
+  },
+});
