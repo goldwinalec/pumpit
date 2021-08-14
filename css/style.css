@@ -609,6 +609,7 @@ h3 {
 }
 .feedback__item {
   padding: 48px 31px;
+  height: auto;
   background: rgba(255, 255, 255, 0.28);
   border: 1px solid rgba(255, 255, 255, 0.28);
   backdrop-filter: blur(22px);
@@ -623,5 +624,55 @@ h3 {
 }
 .feedback__text {
   margin-top: 30px;
+}
+.feedback__controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.feedback__prev,
+.feedback__next {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.feedback__arrow path {
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.swiper-button-disabled {
+  color: #8a8a8a;
+  cursor: default;
+}
+.swiper-button-disabled .feedback__arrow path {
+  fill: #8a8a8a;
+}
+.feedback__prev:hover,
+.feedback__next:hover {
+  color: #7d75f7;
+}
+.feedback__prev:hover .feedback__arrow path,
+.feedback__next:hover .feedback__arrow path {
+  fill: #7d75f7;
+}
+.feedback__arrow {
+  display: block;
+  margin-top: 10px;
+}
+.feedback__prev:hover.swiper-button-disabled,
+.feedback__next:hover.swiper-button-disabled {
+  color: #8a8a8a;
+}
+.feedback__prev:hover.swiper-button-disabled .feedback__arrow path,
+.feedback__next:hover.swiper-button-disabled .feedback__arrow path {
+  fill: #8a8a8a;
 }
 /* Portfolio page end */

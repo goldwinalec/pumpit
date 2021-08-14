@@ -35,6 +35,13 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 });
 
 const swiper = new Swiper(".feedback__wrapper", {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+  },
   navigation: {
     nextEl: ".feedback__next",
     prevEl: ".feedback__prev",
