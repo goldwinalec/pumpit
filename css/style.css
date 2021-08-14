@@ -572,22 +572,24 @@ h3 {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
 .portfolio-page__item:hover {
   background: rgba(255, 255, 255, 0.5);
 }
-.portfolio-page__item-name {
+.portfolio-page__item-name,
+.modal__name {
   display: block;
   font-family: "MazzardL-Bold", sans-serif;
   font-size: 48px;
   line-height: 1;
 }
-.portfolio-page__item-descr {
+.portfolio-page__item-descr,
+.modal__description {
   display: block;
   margin-top: 10px;
   font-family: "MazzardL-Medium", sans-serif;
@@ -680,5 +682,58 @@ h3 {
 .feedback__prev:hover.swiper-button-disabled .feedback__arrow path,
 .feedback__next:hover.swiper-button-disabled .feedback__arrow path {
   fill: #8a8a8a;
+}
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  width: 63%;
+  height: auto;
+  top: 0;
+  right: -100%;
+  padding: 65px 130px 82px 80px;
+  background-color: #f5f4f4;
+  z-index: 6;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.modal--active {
+  opacity: 1;
+  visibility: visible;
+  right: 0;
+}
+.modal__btn-img {
+  cursor: pointer;
+}
+.modal__name {
+  margin-top: 25px;
+}
+.modal__images {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 37px;
+  margin-top: 55px;
+}
+.modal__subtitle {
+  margin-top: 60px;
+  font-family: "MazzardM-Bold", sans-serif;
+}
+.modal__text {
+  margin-top: 20px;
+}
+.modal__subtitle--45 {
+  margin-top: 45px;
+}
+.modal__btn-img:hover path {
+  fill: #7d75f7;
+}
+.modal__wrapper {
+  max-width: 500px;
+  font-family: "MazzardL-Medium", sans-serif;
+  font-size: 16px;
 }
 /* Portfolio page end */
