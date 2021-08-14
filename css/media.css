@@ -76,11 +76,14 @@
     height: 40px;
     font-size: 12px;
   }
+  .header {
+    height: 88px;
+  }
   .header__nav {
     opacity: 0;
     visibility: hidden;
     position: fixed;
-    top: 86px;
+    top: 88px;
     width: 100%;
     height: 100%;
     left: 0;
@@ -153,6 +156,22 @@
   .header__nav--active {
     opacity: 1;
     visibility: visible;
+  }
+  .footer__copyright {
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+  }
+  .footer__copyright--active {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 32px 15px;
+    background-color: #071c35;
+    z-index: 5;
   }
   .header__nav-list {
     margin-top: 110px;
@@ -290,9 +309,6 @@
     left: 0;
     right: -10px;
     top: -50px;
-  }
-  .header__nav {
-    top: 83px;
   }
   .scope__item-text {
     width: 100%;
