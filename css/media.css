@@ -56,8 +56,6 @@
   .modal {
     padding: 31px 16px;
     padding-right: 0;
-  }
-  .modal--active {
     width: 100%;
   }
   .modal__images {
