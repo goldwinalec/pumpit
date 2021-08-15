@@ -25,14 +25,14 @@ navLink.forEach((link) => {
   });
 });
 
-// document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-//   anchor.addEventListener("click", function (evt) {
-//     evt.preventDefault();
-//     document.querySelector(this.getAttribute("href")).scrollIntoView({
-//       behavior: "smooth",
-//     });
-//   });
-// });
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});
 
 const swiper = new Swiper(".feedback__wrapper", {
   slidesPerView: 1,

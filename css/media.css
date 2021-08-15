@@ -53,6 +53,38 @@
   .portfolio-page__item {
     flex-basis: 48%;
   }
+  .modal {
+    width: 100%;
+    padding: 31px 16px;
+    padding-right: 0;
+  }
+  .modal__images {
+    overflow-x: scroll;
+    gap: 13px;
+  }
+  .modal__wrapper {
+    padding-right: 16px;
+  }
+  .portfolio-page__item-name,
+  .modal__name {
+    font-size: 36px;
+  }
+  .portfolio-page__item-descr,
+  .modal__description {
+    font-size: 14px;
+  }
+  .modal__images {
+    margin-top: 30px;
+  }
+  .modal__img {
+    width: 175px;
+  }
+  .modal__subtitle--45 {
+    margin-top: 30px;
+  }
+  .modal__text {
+    font-size: 14px;
+  }
 }
 @media (max-width: 768px) {
   body {
