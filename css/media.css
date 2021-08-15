@@ -468,7 +468,7 @@
     margin-left: auto;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 475px) {
   .portfolio__img--mobile {
     width: 214px;
   }
