@@ -7,8 +7,7 @@ html {
   overflow-x: hidden;
 }
 body {
-  width: 100%;
-  height: 100%;
+  overflow-x: hidden;
   font-family: "MazzardL-Regular", sans-serif;
   font-size: 20px;
   line-height: 1.2;
@@ -687,7 +686,7 @@ h3 {
 .modal {
   opacity: 0;
   visibility: hidden;
-  position: absolute;
+  position: fixed;
   width: 0;
   height: auto;
   top: 0;
@@ -702,6 +701,7 @@ h3 {
   -o-transition: all 0.3s;
 }
 .modal--active {
+  position: absolute;
   opacity: 1;
   visibility: visible;
   width: 63%;
