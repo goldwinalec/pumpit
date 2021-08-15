@@ -693,11 +693,11 @@ h3 {
   padding: 65px 130px 82px 80px;
   background-color: #f5f4f4;
   z-index: 6;
-  transition: all 0.7s;
-  -webkit-transition: all 0.7s;
-  -moz-transition: all 0.7s;
-  -ms-transition: all 0.7s;
-  -o-transition: all 0.7s;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
 .modal--active {
   position: absolute;
@@ -716,7 +716,6 @@ h3 {
   justify-content: flex-start;
   gap: 37px;
   margin-top: 55px;
-  overflow-x: scroll;
 }
 .modal__subtitle {
   margin-top: 60px;
