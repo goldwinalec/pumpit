@@ -688,10 +688,10 @@ h3 {
   opacity: 0;
   visibility: hidden;
   position: absolute;
-  width: 63%;
+  width: 0;
   height: auto;
   top: 0;
-  right: -100%;
+  right: 0;
   padding: 65px 130px 82px 80px;
   background-color: #f5f4f4;
   z-index: 6;
@@ -704,7 +704,7 @@ h3 {
 .modal--active {
   opacity: 1;
   visibility: visible;
-  right: 0;
+  width: 63%;
 }
 .modal__btn-img {
   cursor: pointer;
