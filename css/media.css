@@ -468,11 +468,7 @@
     margin-left: auto;
   }
 }
-@media (max-width: 375px) {
-  .hero__inner {
-    padding-top: 110%;
-    background-size: 100%;
-  }
+@media (max-width: 420px) {
   .portfolio__img--mobile {
     width: 214px;
   }
@@ -481,6 +477,12 @@
     top: 251px;
     width: 220px;
     margin: 0;
+  }
+}
+@media (max-width: 375px) {
+  .hero__inner {
+    padding-top: 110%;
+    background-size: 100%;
   }
   .scope__item-title {
     width: 100%;
