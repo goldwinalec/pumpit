@@ -72,3 +72,4 @@ for (let projectButton of projectButtons) {
     });
   });
 }
+AOS.init();
